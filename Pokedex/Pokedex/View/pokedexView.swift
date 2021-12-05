@@ -9,6 +9,7 @@
 import SwiftUI
 
 struct pokedexView: View {
+//    @ObservedObject var viewModel = PokemonViewModel()
     var body: some View {
         NavigationView{
             ScrollView{

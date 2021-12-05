@@ -17,4 +17,5 @@ struct Pokemon : Decodable,Identifiable {
 
 let mock : [Pokemon] = [
 .init(id: 1, name: "bulbasaur", imgURL: "1", type: "Poison"),
-.init(id: 2, name: "charizarch", imgURL: "1", type: "Water")]
+.init(id: 2, name: "charizarch", imgURL: "1", type: "Water")
+]
